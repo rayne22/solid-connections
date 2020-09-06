@@ -1,0 +1,103 @@
+@media only screen and (max-width:768px) {
+    header .navbar-brand {
+        padding-left: 1rem;
+    }
+
+    .section-1 .row .col-md-6 .panel {
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+
+    .section-2 .cover {
+        background-position: -25vmin -10vmin;
+    }
+
+    .numbers .rect {
+        width: 10rem;
+        height: 8rem;
+    }
+
+    .numbers .rect h1 {
+        font-size: 2rem;
+    }
+
+    .purchase .img1:hover {
+        z-index: 100;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+        transform: translate(100px, 90px) rotateZ(360deg) scale(0.6);
+        transition: 1s;
+    }
+
+    .purchase .img2:hover {
+        z-index: 100;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+        transform: translate(100px, 90px) rotateZ(360deg) scale(0.6);
+        transition: 1s;
+    }
+
+    .purchase .img3:hover {
+        z-index: 100;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+        transform: translate(-50px, 90px) rotateZ(360deg) scale(0.6);
+        transition: 1s;
+    }
+
+    .purchase .img4:hover {
+        z-index: 100;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+        transform: translate(-140px, 90px) rotateZ(360deg) scale(1);
+        transition: 1s;
+    }
+    .food {
+        height: auto;
+    }
+    
+    .section25{
+        height: inherit;    
+    }
+    
+    .section25 p.lead{
+        height: inherit;
+        font-size: 12px;
+    }
+    
+    .food .button {
+    background: #428bca;
+    padding: 0.5em 0.5em;
+    color: #fff;
+    border: 0;
+        font-size: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    
+    
+    .modal-header h2,
+.modal-footer h3 {
+  margin: 0;
+    font-size: 8px;
+}
+
+    .section3 {
+        height: inherit;
+        padding: 10vmin !important;
+    }
+
+    .section3 .row h1 {
+        padding: 6vmin 4vmin;
+    }
+
+    .section3 .row .col-md-6 {
+        text-align: center !important;
+    }
+
+    .section3 .facebook i {
+        font-size: 8vmin;
+    }
+
+    footer .row .col-md-2 {
+        margin-top: 8vmin;
+    }
+}
